@@ -1,17 +1,20 @@
 # Quantized AI Model
-- Exhibited at :- Semicon 2024 under VSD (VLSI System Design)
+- Exhibited at :- Semicon 2024 with VSD (VLSI System Design) team
 - Presended By :- VLSI System Design
 - Duration :- 11 Sep to 13 Sep
 - Based on :- Real Time Implementation of Low-Bit Quntized Neural network on Risc-V microcontroller
 
 ## Main Features 
-- Demonstrates Neural network on Risc-V microcontroller
+- Demonstrates Neural network on VSD Squadron Mini Risc-V development board
 - Interfaced  camera with CH32V003F4U6 based microcontroller
 - Demonstrates on edge AI capabilities of Risc-V microcontroller
 - Complete demonstration implemented on VSD Squadron Mini based on Risc-V microcobtroller
 
 ## Demo Video 
 [![Demo Video](http://i.ytimg.com/vi/YNRfUTBifs0/hqdefault.jpg)](https://www.youtube.com/watch?v=YNRfUTBifs0)
+
+## Demo kit images
+![demo kit images](./images/demoimage.jpg)
 
 ## Social Media link
 [Media linkedIn Post](https://www.linkedin.com/posts/dhanvanti-bhavsar-387620160_the-india-expo-centre-mart-buzzed-with-activity-7241767522583138305-5wRa?utm_source=share&utm_medium=member_desktop)
