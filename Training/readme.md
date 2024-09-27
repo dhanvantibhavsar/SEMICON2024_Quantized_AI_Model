@@ -74,7 +74,7 @@ No hardware connections are required for BitNetMCU only we have to connect VSD s
 The following connections are required for BitNetMCU real time implementation:
 
 
-![circuit diagram](./images/circuitdiagram.png)
+![circuit diagram](./images/circuit.png)
 
 ## Training the model
 The model is trained using the MNIST dataset. The training process involves the following steps:
@@ -209,4 +209,4 @@ make
 ```
 
 ## Uploading BitNetMCU to VSDSquadron and realtime implementation
-- [All details can be found in VSDSquadron folder](./VSD_Prediction)
+- [All details can be found in VSD Prediction folder](/VSD_Prediction/)
