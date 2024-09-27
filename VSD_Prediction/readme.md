@@ -43,12 +43,11 @@ state VSDSquadronMini{PC0 PC1 PC2 PC3 PC4 PC5 PC6 }
 - [![Implementation Result](../images/basic_implementation.mp4)](../images/basic_implementation.mp4) \
 **Please not that the segment A of 7 Segment Display was blown out while testing**
 
-## Real Time Implementation with USART communication with Arduino and OV7670 integration
+## Real Time Implementation with USART communication with VSD Squadron Mini board and OV7670 integration
 
 ### State Diagram
 ```mermaid
 stateDiagram-v2
-Button_Pushed
 state VSDSquadronMini{
     [*]-->Initialize_USART
     Initialize_USART --> Wait_for_data_over_USART
@@ -56,16 +55,13 @@ state VSDSquadronMini{
     Send_over_uart --> Receive_over_uart
     Receive_over_uart --> Generate_File_Buffer
     Generate_File_Buffer --> Convert_To_Binary_Image
-   Convert_To_Binary_Image --> Generate_Prediction_using_BitNetMCU_model
+   Convert_To_Binary_Image --> Generate_Prediction_using_Quantized_AI_model
     
 }
-Generate_Prediction_using_BitNetMCU_model--> Display_Over_7_Segment_Display
+Generate_Prediction_using_Quantized_AI_model--> Display_Over_7_Segment_Display
 state Camera{
     [*] --> Camera_Initialized
-    Camera_Initialized --> Wait_for_Push_button
-    Wait_for_Push_button --> Wait_for_Push_button
-    Button_Pushed --> Capture_image
-
+    Camera_Initialized --> Capture_image
     state Process_Image {
         Capture_image --> Convert_to_int_8_t_28x28_image
         Convert_to_int_8_t_28x28_image --> Send_over_uart
@@ -86,7 +82,8 @@ this will put the code to process data being sent over UART and generate predict
 3. Update generated model in data folder and change model file to be loaded accordingly
 4. Select Correct Port to which the board is connected
 5. Build and upload the code to VSDSquadronMini
-6. Press Push button and data Prediction should be updated on the 7 Segment Display
+6. Data Prediction should be updated on the 7 Segment Display after the image is processed and predicted.
 
 
-
+## Prediction of Quantized AI Model on VSDSquadron and realtime implementation
+- [All details can be found in VSD Prediction folder](/VSD_Prediction/)
