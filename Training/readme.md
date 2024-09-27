@@ -208,5 +208,5 @@ python exportquant.py
 make
 ```
 
-## Uploading BitNetMCU to VSDSquadron and realtime implementation
+## Uploading Quantized AI Model to VSDSquadron and realtime implementation
 - [All details can be found in VSD Prediction folder](/VSD_Prediction/)

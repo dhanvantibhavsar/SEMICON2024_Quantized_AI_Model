@@ -11,10 +11,17 @@
 - Complete demonstration implemented on VSD Squadron Mini based on Risc-V microcobtroller
 
 ## Demo Video 
-[![Demo Video](http://i.ytimg.com/vi/YNRfUTBifs0/hqdefault.jpg)](https://www.youtube.com/watch?v=YNRfUTBifs0)
+[![Demo Video](http://img.youtube.com/vi/YNRfUTBifs0/hqdefault.jpg)](https://www.youtube.com/watch?v=YNRfUTBifs0&mute=1)
 
 ## Demo kit images
 ![demo kit images](./images/demoimage.jpg)
+
+## Semicon Gallary
+![](./images/semicon1.jpg)
+![](./images/semicon3.jpg)
+![](./images/semicon4.jpg)
+![](./images/semicon5.jpg)
+
 
 ## Social Media link
 [Media linkedIn Post](https://www.linkedin.com/posts/dhanvanti-bhavsar-387620160_the-india-expo-centre-mart-buzzed-with-activity-7241767522583138305-5wRa?utm_source=share&utm_medium=member_desktop)
