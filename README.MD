@@ -147,9 +147,6 @@ SEMICON2024_Quantized_AI_Model/
     - *MNIST/raw/*  
       Contains raw MNIST dataset files, including images and labels for both training and testing.
 
-  - *images/*  
-    Duplicate of the root images directory specific to training. Consider consolidating if redundant.
-
   - *modeldata/*  
     Stores trained model files with various configurations and hyperparameters.
 
