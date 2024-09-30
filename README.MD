@@ -11,7 +11,7 @@
 - Complete demonstration implemented on VSD Squadron Mini based on Risc-V microcobtroller
 
 ## Demo Video 
-https://github.com/user-attachments/assets/1887c475-9d92-47be-bed6-2a940615f66c
+https://github.com/user-attachments/assets/e731484d-ab7b-4347-bf47-5b0f53fb8fbb
 
 ## Demo kit images
 ![demo kit images](./images/demoimage.jpg)
