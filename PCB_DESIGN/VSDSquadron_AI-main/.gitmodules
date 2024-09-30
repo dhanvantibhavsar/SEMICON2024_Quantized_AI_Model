@@ -1,0 +1,3 @@
+[submodule "vsdsquadron_ai_1A/squadron_lib"]
+	path = vsdsquadron_ai_1A/squadron_lib
+	url = https://github.com/yathAg/squadron_lib

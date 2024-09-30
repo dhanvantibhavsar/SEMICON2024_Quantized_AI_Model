@@ -1,0 +1,14 @@
+**/fp-info-cache
+**/fp-lib-table
+**/sym-lib-table
+**/fp-info-cache
+**/*.kicad_prl
+**/*-backups
+**/*.xml
+**/*.kicad_sch_old
+**/*.kicad_sch-bak
+**/*.kicad_sch.lck
+**/*.kicad_pcb.lck
+_autosave*
+**#auto_saved_files#
+**/backups

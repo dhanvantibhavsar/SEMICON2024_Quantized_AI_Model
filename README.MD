@@ -16,6 +16,14 @@ https://github.com/user-attachments/assets/1887c475-9d92-47be-bed6-2a940615f66c
 ## Demo kit images
 ![demo kit images](./images/demoimage.jpg)
 
+## PCB Design
+Please find the complete pcb design structure in [PCB_DESIGN](./PCB_DESIGN/)
+Use kicad to open the schematic as well as PCB design. Here is a image of top silk layer
+![PCB design](./images/pcbdesign.jpg)
+Here is a image of printed PCB with components attached
+![PCB design with components attached](./images/imagewithcomponents.jpg)
+ 
+
 ## Semicon Gallary
 ![](./images/semicon1.jpg)
 ![](./images/semicon3.jpg)
